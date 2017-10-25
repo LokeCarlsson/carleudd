@@ -28,8 +28,8 @@
     text-transform: uppercase;
     background-color: #ffb340;
     padding-top: 0px;
+    font-weight: bold;
     font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
     text-align: center;
     text-shadow: 0px 0px 0px #333333;
     padding: 10px;
@@ -51,10 +51,11 @@
     display: inline;
 }
 #vmenu a {
-    color: #000000;
+    color: rgb(80, 52, 33);
     padding: 8px 8px 8px 8px;
     margin: 0px;
     padding: 0px;
+    transition-duration: 200ms;
 }
 #vmenu ul li {
     margin: 0 auto;
@@ -62,6 +63,6 @@
 }
 #vmenu a:hover {
     box-shadow: 0px 0px 0px #000000;
-    color: #FFFFFF;
+    color: rgb(160, 129, 95);
     transition-duration: 300ms;
 }

@@ -13,6 +13,7 @@ footer {
 html,
 body {
     height: 100%;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
@@ -61,6 +62,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #wrapper {
@@ -74,10 +80,8 @@ img {
     background-color: #ffb340;
     padding-top: 0px;
     font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
     text-align: center;
-    text-shadow: 0px 0px 0px #333333;
     padding: 10px;
     margin: 0 auto;
     background-image: url("pics/navbar.png");
@@ -97,10 +101,11 @@ img {
 }
 
 #nav a {
-    color: #000000;
     padding: 8px 8px 8px 8px;
     margin: 0px;
     padding: 0px;
+    transition-duration: 200ms;
+    color: rgb(80, 52, 33);
 }
 
 #nav ul li {
@@ -110,13 +115,12 @@ img {
 
 #nav a:hover {
     box-shadow: 0px 0px 0px #000000;
-    color: #FFFFFF;
+    color: rgb(160, 129, 95);
     transition-duration: 300ms;
 }
 
 .thispage {
-    box-shadow: 0px 4px 0px #ffffff;
-    color: #FFFFFF;
+    color: rgb(160, 129, 95) !important;
 }
 
 #bi {
@@ -172,17 +176,23 @@ img {
 }
 
 .infopic {
-    width: 50%;
+    width: 48%;
+    height:48%;
     float: left;
-    border-radius: 20px;
     margin-bottom: 10px;
 }
 
 .infopic2 {
     width: 30%;
-    border-radius: 20px;
     float: right;
     margin: 0 0 10px 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .infotext {
@@ -193,6 +203,11 @@ img {
 .title {
     padding: 0px;
     margin: 0px;
+}
+
+.pictureDiv {
+    display: flex;
+    flex-direction: row;
 }
 
 table {
