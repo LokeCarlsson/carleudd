@@ -2,9 +2,9 @@
   <h1 align="center">Carleudd</h1>
   <p align="center">Frameworks..? pfft.</p>
   <p align="center">
-    <img alt='popping badge' src='https://img.shields.io/badge/mode-skynet-green.svg?style=flat-square' />
+    <img alt='popping badge' src='https://img.shields.io/badge/dependecies-none-green.svg?style=flat-square' />
     <img alt='build badge' src='https://img.shields.io/badge/build-passing-green.svg?style=flat-square' />
-    <img alt='version badge' src='https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square' />
+    <img alt='version badge' src='https://img.shields.io/badge/version-0.4.6.8-blue.svg?style=flat-square' />
   </p>
 </div>
 <hr>  
