@@ -1,0 +1,18 @@
+/* TEAM */
+	Web designer: Loke Carlsson
+	Contact: loke.carlsson.lc (at) gmail.com
+	Twitter: @Loke_Carlsson
+	From: Kalmar, Sweden
+
+/* THANKS */
+
+	Teachers of LNU: Johan, John, Mats and Jacob
+
+	Logo design: freepik
+	Website: http://www.freepik.com/
+
+/* SITE */
+	Last update:2015/11/13
+	Language: Swedish / English
+	Doctype:HTML5
+	IDE: Sublime Text 3, Photoshop
