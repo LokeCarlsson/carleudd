@@ -55,21 +55,21 @@
 			<h2>Skicka ditt meddelande till oss!</h2>
 			<form action="#" method="POST" enctype="multipart/form-data">
 				<div class="row">
-					<label>Ditt namn:</label>
+					<label for="name">Ditt namn:</label>
 					<br />
-					<input name="name" type="text" value="" size="30" />
-					<br />
-				</div>
-				<div class="row">
-					<label>Din email-adress:</label>
-					<br />
-					<input name="email" type="text" value="" size="30" />
+					<input name="name" id="name" label="name input" type="text" value="" size="30" />
 					<br />
 				</div>
 				<div class="row">
-					<label>Ditt meddelande:</label>
+					<label for="email">Din email-adress:</label>
 					<br />
-					<textarea name="message" rows="7" cols="30"></textarea>
+					<input name="email" id="email" type="text" value="" size="30" />
+					<br />
+				</div>
+				<div class="row">
+					<label for="message">Ditt meddelande:</label>
+					<br />
+					<textarea id="message" name="message" rows="7" cols="30"></textarea>
 					<br />
 				</div>
 				<input type="submit" value="Skicka" />
