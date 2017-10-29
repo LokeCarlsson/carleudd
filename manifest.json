@@ -2,7 +2,12 @@
 	"name": "Carleudd",
 	"short_name": "Carleudd",
 	"start_url": ".",
-	"display": "standalone",
+	"icons": [{
+		"src": "/android-chrome-192x192.png",
+		"sizes": "192x192",
+		"type": "image/png"
+	}],
+	"theme_color": "#ffffff",
 	"background_color": "#FFD25C",
-	"description": "Carleudd website"
+	"display": "standalone"
 }
