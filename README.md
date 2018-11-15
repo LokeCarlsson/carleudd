@@ -11,7 +11,7 @@
 <p align="center">
   <h1 align="center">Google Lighthouse score</h1>
   <p align="center">
-    <img alt='Lighthouse score' src='https://i.imgur.com/T6C8GUo.png' width='538'/>
+    <img alt='Lighthouse score' src='https://user-images.githubusercontent.com/14079937/48583437-6f978f00-e927-11e8-8397-e172638f477f.png' width='538'/>
   </p>
   <p align="center">
     With the aim of being quick and accessible only using best practices and having no frameworks at all, here is carleudd!
